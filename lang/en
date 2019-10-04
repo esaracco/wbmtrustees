@@ -1,0 +1,46 @@
+trustees_error_type_rejected=The partition type of the given path has been rejected
+trustees_error_type_unknown=The type of the partition is unknown (please add it in the trustees-lib.pl file)
+trustees_error_path_already_exist=The given path already exist
+trustees_error_acl_already_exist=The given ACL already exist for this directory
+trustees_restart=Restart trustees
+trustees_error_choose_group_or_user=You can not choose both group and user
+trustees_error_choose_rights=You must choose at least one right
+trustees_error_choose_owner=You must choose a owner
+trustees_error_conf=Trustees config file is not readable, maybe trustees is not installed or your module configuration is incorrect.
+trustees_error_cmd=Trustees command is not readable, maybe trustees is not installed or your module configuration is incorrect.
+trutees_error_syscall=Trustees syscall not found, maybe trustees is not enabled in your kernel or your module configuration is incorrect.
+trustees_error_bad_path=The given trustee path is invalid
+trustees_select_group=Select a group
+trustees_select_user=Select a user
+trustees_select_all_users=All users
+trustees_select_none=None
+trustees_item_title_R=Read files
+trustees_item_title_W=Write files and directories
+trustees_item_title_B=Browse (like UNIX execute for directories)
+trustees_item_title_E=Read directories
+trustees_item_title_X=Execute files
+trustees_item_title_U=Use UNIX permissions
+trustees_item_title_C=Clear the permissions (instead of set them)
+trustees_item_title_D=Deny access (instead of grant)
+trustees_item_title_!= The trustee object applies to all except user or group
+trustees_item_title_O=One level. The trustee object applies to the directory and files in in, not to subdirectories
+trustees_title_index=Trustees ACLs
+trustees_title_edit=Edit trustee
+trustees_table_title_path=Path (file or directory)
+trustees_table_title_action=Action
+trustees_table_title_owner=Owner
+trustees_table_title_rights=Rights
+trustees_help=(help)
+trustees_subtitle_edit=ACLs for %s
+trustees_return_index_module=module index
+trustees_button_activate=Activate
+trustees_button_deactivate=Deactivate
+trustees_button_save=Save
+trustees_button_add=Add
+trustees_button_delete=Delete
+
+#
+# Pur texts
+#
+trustees_text_add_path=New file or directory
+

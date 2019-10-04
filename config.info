@@ -1,0 +1,3 @@
+trustees_conf=Path to trustees config file,0
+trustees_cmd=Path to settrustee command,0
+trustees_syscall=Path to trustees syscall

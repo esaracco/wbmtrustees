@@ -1,0 +1,3 @@
+trustees_conf=/etc/trustee.conf
+trustees_cmd=/sbin/settrustee
+trustees_syscall=/proc/trustee/syscall

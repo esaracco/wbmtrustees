@@ -1,0 +1,3 @@
+trustees_conf=Chemin du fichier de configuration,0
+trustees_cmd=Chemain de la commande "settrustee",0
+trustees_syscall=Chemin pour trustees syscall

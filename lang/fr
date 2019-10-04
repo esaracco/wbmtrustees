@@ -1,0 +1,83 @@
+#
+# Errors
+#
+trustees_error_type_rejected=Le type de la partition du chemin spécifié à été rejeté
+trustees_error_type_unknown=Le type de la partition est inconnu (il faudrait l'ajouter dans le fichier trustees-lib.pl)
+trustees_error_path_already_exist=Le chemin spécifié existe déjà
+trustees_error_acl_already_exist=La nouvelle ACL existe déjà pour ce chemin
+trustees_restart=Redémarrer trustees
+trustees_error_choose_group_or_user=Vous devez spécifier soit un groupe, soit un utilisateur
+trustees_error_choose_rights=Vous devez cpécifier au moins une règles
+trustees_error_choose_owner=Vous devez spécifier un propriétaire (groupe ou utilisateur)
+trustees_error_conf=Le fichier de configuration de trustees n'est pas accessible en lecture. Soit trustees n'est pas installé sur cette machine, soit la configuration de ce module est incorrecte
+trustees_error_cmd=La commande de trustees n'est pas accessible en lecture. Soit trustees n'est pas installé sur cette machine, soit la configuration de ce module est incorrecte
+trutees_error_syscall=L'appel système de trustees n'a pas été trouvé. Soit trustees n'est activé dans votre noyau, soit la configuration de ce module est incorrecte
+trustees_error_bad_path=Le chemin spécifié n'est pas correct
+
+#
+# Combo boxes
+#
+trustees_select_group=Choisir un groupe
+trustees_select_user=Choisir un utilisateur
+trustees_select_all_users=Tous les utilisateurs
+trustees_select_none=Aucun
+
+#
+# Items title
+#
+# -> rights
+trustees_item_title_R=Lecture de fichiers
+trustees_item_title_W=Ecriture de fichiers et de répertoires
+trustees_item_title_B=Parcours de répertoires
+trustees_item_title_E=Lecture de répertoires
+trustees_item_title_X=Exécution de fichiers
+trustees_item_title_U=Utiliser les permissions Unix
+# -> modificators
+trustees_item_title_C=Réinitialiser les permissions (au lieu de les définir)
+trustees_item_title_D=Refuser (au lieu d'autoriser)
+trustees_item_title_!= L'attribut s'applique à tous, à l'exception du propriétaire (groupe ou utilisateur) spécifié
+trustees_item_title_O=Un seul niveau. L'attribut ne s'applique qu'au répertoire spécifié et aux fichiers qu'il contient, pas aux sous-répertoires
+
+#
+# Titles
+#
+trustees_title_index=ACLs de Trustees
+trustees_title_edit=Editer une règle
+
+#
+# Table titles
+#
+trustees_table_title_path=Chemin (fichier ou répertoire)
+trustees_table_title_action=Action
+trustees_table_title_owner=Propriétaire
+trustees_table_title_rights=Droits
+
+#
+# Help
+#
+trustees_help=(aide)
+
+#
+# Subtitles
+#
+trustees_subtitle_edit=ACLs pour %s
+
+#
+# Return links
+#
+trustees_return_index_module=l'index du module
+
+#
+# Buttons
+#
+trustees_button_activate=Activer
+trustees_button_deactivate=Désactiver
+trustees_button_save=Sauvegarder
+trustees_button_add=Ajouter
+trustees_button_delete=Supprimer
+
+#
+# Pur texts
+#
+trustees_text_add_path=Nouveau fichier ou répertoire
+

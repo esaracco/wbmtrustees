@@ -1,0 +1,48 @@
+<header>Edition des ACLs</header>
+<h4 align="center">Gestion des ACLs d'un chemin donné</h4>
+<ul>
+<li>
+<p>En cliquant sur "Ajouter", vous pouvez ajouter une nouvelle règle.
+Vous devez tout d'abord sélectionner le groupe ou l'utilisateur concerné
+par cette règle. Une règle concerne un groupe ou bien un utilisateur,
+jamais les deux à la fois.<br />
+Indiquez ensuite les droits en sélectionnant les cases à cocher
+correspondant à ce que vous voulez mettre en place. Vous avez la
+possibilité, en plus des droits, de spécifier un "modificateur".
+Cet élément vous permet par exemple de refuser explicitement la
+lecture en indiquant "D" devant l'attribut "R".</p>
+<p>La signification des attributs de droits et des modificateurs est
+la suivante :</p>
+</li>
+</ul>
+<table border="1" cellspacing="1" cellpadding="1">
+<tr bgcolor="silver"><td><b>Attribut</b></td><td><b>Signification</b></td></tr>
+<tr><td>R</td><td>Lecture de fichiers</td></tr>
+<tr><td>W</td><td>Ecriture de fichiers et de répertoires</td></tr>
+<tr><td>B</td><td>Parcours de répertoires</td></tr>
+<tr><td>E</td><td>Lecture de répertoires</td></tr>
+<tr><td>X</td><td>Exécution de fichiers</td></tr>
+<tr><td>U</td><td>Utiliser les permissions Unix</td></tr>
+<tr bgcolor="silver"><td colspan=2><b> Modificateurs</b></td></tr>
+<tr><td>C</td><td>Réinitialiser les permission (au lieu de les définir)</td></tr>
+<tr><td>D</td><td>Refuser (au lieu d'autoriser)</td></tr>
+<tr><td>!</td><td> L'attribut s'applique à tous, à l'exception du propriétaire
+(groupe ou utilisateur) spécifié</td></tr>
+<tr><td>O</td><td>Un seul niveau. L'attribut ne s'applique qu'au répertoire
+spécifié et aux fichiers qu'il contient, pas aux sous-répertoires</td></tr>
+</table>
+<ul>
+<li><p>
+La liste des ACLs définies pour le chemin s'affiche sous le formulaire d'ajout.
+Vous pouvez entrer en modification sur chacune des règles existante.
+Ce qui a été dit pour l'ajout est évidemment valable pour la modification.
+Dans le panel de gauche affiché pour chaque ligne vous pouvez supprimer une
+règle en cliquant sur le bouton "Supprimer".
+</p></li>
+<li><p>
+Lorsque vous désirez enregistrer vos modifications, cliquez sur le bouton
+"Sauvegarder". Vous serez redirigé sur la page principal du module.
+</p></li>
+</ul>
+<hr />
+<p><a href="javascript:window.close()">Fermer</a></p>
